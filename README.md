@@ -7,7 +7,7 @@ Battlemaps for Foundry VTT where the walls, doors, windows and lights sit exactl
 
 > A tower on a lake, four floors high over a cellar, and a roof that disappears the moment a token steps inside.
 
-![The ground floor of Izudin's manor](docs/images/izudin-manor-ground.png)
+![The ground floor of Izudin's manor](docs/images/izudin-manor-ground.jpg)
 
 ## What it is
 
@@ -63,25 +63,25 @@ Then enable the module in your world. The zip is about 50 MB because of the map 
 3. Activate the scene. On multi-floor maps, switch floors with Foundry's Levels controls.
 4. For a night scene, run the **Ночь** macro as the GM. **День** brings the daylight back.
 
-![The lake tower, ground floor](docs/images/lake-tower-ground.png)
+![The lake tower, ground floor](docs/images/lake-tower-ground.jpg)
 
 ## Two looks
 
 Every scene with a (2D) twin comes in both looks. The lit version has shadows under furniture and walls; the flat one is a clean painted map.
 
-![The lake tower, flat painted look](docs/images/lake-tower-flat.png)
+![The lake tower, flat painted look](docs/images/lake-tower-flat.jpg)
 
 ## Outdoor maps
 
 The ruined tower shows how outdoor maps work: tree crowns are separate tiles that fade, trunks are walls, and rough ground is marked as difficult terrain.
 
-![The ruined tower](docs/images/ruined-tower.png)
+![The ruined tower](docs/images/ruined-tower.jpg)
 
 ## Interiors
 
 Rooms are furnished by purpose, and every light, door and window is placed in the Foundry scene as well as painted. The Sixth Facet club has ten lights.
 
-![The Sixth Facet club](docs/images/shestaya-gran-club.png)
+![The Sixth Facet club](docs/images/shestaya-gran-club.jpg)
 
 ## Credits
 
