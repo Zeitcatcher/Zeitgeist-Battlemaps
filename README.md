@@ -23,7 +23,7 @@ Foundry VTT v14, verified on 14.367. The multi-floor scenes need v14's Levels, s
 
 ## What's inside
 
-Seven scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
+Eight scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
 
 | Scene | English name | Size | Floors |
 | --- | --- | --- | --- |
@@ -34,6 +34,7 @@ Seven scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russ
 | Руины башни (2D) | Ruined tower, flat painted look | 30 × 24 squares | outdoor, one level |
 | Клуб «Шестая Грань» | The Sixth Facet club | 20 × 15 squares | one floor |
 | Клуб «Шестая Грань» (2D) | The Sixth Facet club, flat painted look | 20 × 15 squares | one floor |
+| Крагмир: улица рабочего квартала | Kragmir, a working-quarter street | 81 × 50 squares | sewer and cellars, street, upper floors, roofs |
 
 The plain versions are lit with real shadows. The (2D) versions are the same map with a flat painted look and no baked shadows.
 
@@ -41,8 +42,8 @@ The plain versions are lit with real shadows. The (2D) versions are the same map
 
 - Walls, doors, windows and lights generated from the same data as the image, so they match to the pixel.
 - Multi-floor buildings as a single scene, with stairs, balustrades and a pitched roof on its own Level.
-- Roofs fade out while any token is inside the building. Courtyards stay open.
-- Tree crowns are tiles that fade when a token walks under them. Trunks block movement.
+- Roofs fade out while any token is inside the building. Courtyards stay open. On the street, each house has a roof of its own.
+- Tree crowns are tiles that fade when a token walks under them. Trunks block movement, and so do the rock columns in the street.
 - Cellars and shut rooms carry darkness regions, and night lights switch on as the scene darkens.
 - Two macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, both fading over ten seconds.
 
@@ -54,7 +55,7 @@ In Foundry, open **Add-on Modules**, press **Install Module** and paste this int
 https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases/latest/download/module.json
 ```
 
-Then enable the module in your world. The zip is about 50 MB because of the map images.
+Then enable the module in your world. The zip is about 75 MB because of the map images.
 
 ## How to use it
 
@@ -82,6 +83,12 @@ The ruined tower shows how outdoor maps work: tree crowns are separate tiles tha
 Rooms are furnished by purpose, and every light, door and window is placed in the Foundry scene as well as painted. The Sixth Facet club has ten lights.
 
 ![The Sixth Facet club](docs/images/shestaya-gran-club.jpg)
+
+## A street with real houses
+
+The Kragmir street is a whole quarter in one scene: twelve two-storey houses you can walk into, from a tavern and a smithy to a bathhouse and a small temple, around a market square. Under the street runs a sewer with ladder hatches, and one cellar has a secret way into it. The city sits inside a mountain, so the ground is bare rock and paving, and the light comes from glowing crystals and fires.
+
+![The Kragmir street with the roofs off](docs/images/kragmir-street.jpg)
 
 ## Credits
 
