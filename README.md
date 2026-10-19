@@ -41,6 +41,7 @@ The plain versions are lit with real shadows. The (2D) versions are the same map
 ## Features
 
 - Walls, doors, windows and lights generated from the same data as the image, so they match to the pixel.
+- Every wall runs along a grid line and every door spans whole squares, so tokens walk through doorways without catching on a jamb. No furniture stands inside a wall.
 - Multi-floor buildings as a single scene, with stairs, balustrades and a pitched roof on its own Level.
 - Roofs fade out while any token is inside the building. Courtyards stay open. On the street, each house has a roof of its own.
 - Tree crowns are tiles that fade when a token walks under them. Trunks block movement, and so do the rock columns in the street.
@@ -86,7 +87,7 @@ Rooms are furnished by purpose, and every light, door and window is placed in th
 
 ## A street with real houses
 
-The Kragmir street is a whole quarter in one scene: twelve two-storey houses you can walk into, from a tavern and a smithy to a bathhouse and a small temple, around a market square. Under the street runs a sewer with ladder hatches, and one cellar has a secret way into it. The city sits inside a mountain, so the ground is bare rock and paving, and the light comes from glowing crystals and fires.
+The Kragmir street is a whole quarter in one scene: twelve two-storey houses you can walk into, from a tavern and a smithy to a bathhouse and a small temple, around a market square. Under the street runs a sewer with ladder hatches, and one cellar has a secret way into it. The city sits inside a mountain, so the ground is bare rock and paving, and the light comes from glowing crystals and fires. Each house stands turned a degree or so off the grid, its yard with it, each its own way, and narrow alleys run between them.
 
 ![The Kragmir street with the roofs off](docs/images/kragmir-street.jpg)
 

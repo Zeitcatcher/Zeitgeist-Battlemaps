@@ -2,6 +2,21 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.2.0 — turned houses
+
+Kragmir street
+
+- Each house stands turned 0.5 to 1.5 degrees off the grid, its yard with it, each its own way. One-square alleys now run between the houses and at both ends of the street.
+- Every wall runs along a grid line and every door spans whole squares, so tokens no longer catch on a door jamb or stand half inside a wall.
+- Ground textures blend into each other along their edges and at passage mouths instead of meeting on a straight line. Bare rock is grey everywhere.
+- Some rooms lost a square to make room for the alleys. The temple hall was laid out again around its aisle.
+
+All maps
+
+- No table, chair, counter or crate stands inside a wall. Fixed on the Kragmir street (the tavern terrace among others), in the lake tower (two cages and the telescope) and in Izudin's manor (a crate by the back stair).
+
+Imported scenes keep their old walls and lights: delete the Kragmir street, lake tower and Izudin's manor scenes from your world and import them again.
+
 ## 1.1.0 — Kragmir street
 
 One new scene, eight in all.
