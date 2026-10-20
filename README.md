@@ -42,11 +42,13 @@ The plain versions are lit with real shadows. The (2D) versions are the same map
 
 - Walls, doors, windows and lights generated from the same data as the image, so they match to the pixel.
 - Every wall runs along a grid line and every door spans whole squares, so tokens walk through doorways without catching on a jamb. No furniture stands inside a wall.
+- Doors swing open on their hinges with Foundry's door animation, each one into its room.
 - Multi-floor buildings as a single scene, with stairs, balustrades and a pitched roof on its own Level.
 - Roofs fade out while any token is inside the building. Courtyards stay open. On the street, each house has a roof of its own.
 - Tree crowns are tiles that fade when a token walks under them. Trunks block movement, and so do the rock columns in the street.
 - Cellars and shut rooms carry darkness regions, and night lights switch on as the scene darkens.
-- Two macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, both fading over ten seconds.
+- Moving parts: drawbridges, lifts, portcullises and pressure plates, with a button on the map for the player whose token stands at the lever. None of the current scenes has any yet; the script stays idle without them.
+- Three macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, both fading over ten seconds. **Механизмы** lists the moving parts of the open scene for the GM to operate, reset or jam.
 
 ## Installation
 

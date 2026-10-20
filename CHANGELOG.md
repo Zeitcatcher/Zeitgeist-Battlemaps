@@ -2,6 +2,26 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.3.0 — swinging doors
+
+All maps
+
+- Doors swing open and shut on their hinges with Foundry's door animation. Each opens into its room: the indoor side, or the larger of two rooms. The map images no longer have doors painted in.
+
+Izudin's manor
+
+- A door in the same place on the ground and upper floors was one door for both, so opening it on one floor opened it on the other. Each floor now has its own.
+
+Kragmir street
+
+- The twelve house stairs no longer have a square of different wood at the top of the wooden upper floors.
+
+Module
+
+- A script for moving map parts: drawbridges, lifts, portcullises and pressure plates. Players get a button on the map when their token stands at a lever or on a lift, and the GM gets the **Механизмы** macro. No scene in this release uses them yet. Button text in English and Russian.
+
+Imported scenes keep their old doors: delete the Zeitgeist Battlemaps scenes from your world and import them again.
+
 ## 1.2.0 — turned houses
 
 Kragmir street
