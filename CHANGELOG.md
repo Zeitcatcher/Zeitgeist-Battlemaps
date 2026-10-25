@@ -2,6 +2,21 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.4.0 — Kragmir deep mines station
+
+New map
+
+- **Глубинные шахты: станция** (Kragmir deep mines, the station), 80 × 54 squares, lit look. The station stands on a rock shelf 35 feet above the town's lower street, and both are in one scene. A grand stair and a freight lift go down the cliff. The train stops on a raised platform on stone piers that fades over a token beneath it, and a hoist tower lifts ore carts up to the track. Six buildings you can walk into: the office on two floors, two warehouses, the workers' shed, the hoist tower and the wardens' post on its stone base.
+- Rocks, stacks of crates, carts, machines and the platform's piers have object walls along their drawn outline: they stop movement and hide what stands behind them. Rubble and rock heaps are difficult terrain.
+
+Module
+
+- Ledges and raised platforms: a token that steps off the edge drops to the level below, and a chat card shows the falling damage (a damage roll in PF2e).
+- Lifts carry tokens between levels. Each stop has a gate that opens where the platform stands and a call square. A player sees the lift's button while their token stands on the platform; the GM sees it for the selected token.
+- A client setting, **Map animations**, for animated maps to come. No scene in this release is animated.
+
+The other maps haven't changed. Import the new station scene from the compendium.
+
 ## 1.3.0 — swinging doors
 
 All maps

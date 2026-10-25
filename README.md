@@ -23,7 +23,7 @@ Foundry VTT v14, verified on 14.367. The multi-floor scenes need v14's Levels, s
 
 ## What's inside
 
-Eight scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
+Nine scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
 
 | Scene | English name | Size | Floors |
 | --- | --- | --- | --- |
@@ -35,6 +35,7 @@ Eight scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russ
 | Клуб «Шестая Грань» | The Sixth Facet club | 20 × 15 squares | one floor |
 | Клуб «Шестая Грань» (2D) | The Sixth Facet club, flat painted look | 20 × 15 squares | one floor |
 | Крагмир: улица рабочего квартала | Kragmir, a working-quarter street | 81 × 50 squares | sewer and cellars, street, upper floors, roofs |
+| Глубинные шахты: станция | Kragmir deep mines, the station | 80 × 54 squares | lower street, station, upper floors, raised platform, roofs |
 
 The plain versions are lit with real shadows. The (2D) versions are the same map with a flat painted look and no baked shadows.
 
@@ -46,8 +47,10 @@ The plain versions are lit with real shadows. The (2D) versions are the same map
 - Multi-floor buildings as a single scene, with stairs, balustrades and a pitched roof on its own Level.
 - Roofs fade out while any token is inside the building. Courtyards stay open. On the street, each house has a roof of its own.
 - Tree crowns are tiles that fade when a token walks under them. Trunks block movement, and so do the rock columns in the street.
+- Two town levels in one scene: a cliff with a parapet, a stair and a lift down it, and the lower street seen from above. A raised platform on piers fades over a token beneath it. A token that steps off an edge drops to the level below with a falling-damage card (a damage roll in PF2e).
+- Rocks, stacks of crates, carts and machines have object walls on their outline: they stop movement and hide what stands behind them. Rubble and rock heaps are difficult terrain.
 - Cellars and shut rooms carry darkness regions, and night lights switch on as the scene darkens.
-- Moving parts: drawbridges, lifts, portcullises and pressure plates, with a button on the map for the player whose token stands at the lever. None of the current scenes has any yet; the script stays idle without them.
+- Moving parts: drawbridges, lifts, portcullises and pressure plates, with a button on the map for the player whose token stands at the lever or on the lift. The mines station has two lifts: a freight lift down the cliff and a hoist that raises ore carts to the platform.
 - Three macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, both fading over ten seconds. **Механизмы** lists the moving parts of the open scene for the GM to operate, reset or jam.
 
 ## Installation
@@ -58,7 +61,7 @@ In Foundry, open **Add-on Modules**, press **Install Module** and paste this int
 https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases/latest/download/module.json
 ```
 
-Then enable the module in your world. The zip is about 75 MB because of the map images.
+Then enable the module in your world. The zip is about 90 MB because of the map images.
 
 ## How to use it
 
@@ -92,6 +95,12 @@ Rooms are furnished by purpose, and every light, door and window is placed in th
 The Kragmir street is a whole quarter in one scene: twelve two-storey houses you can walk into, from a tavern and a smithy to a bathhouse and a small temple, around a market square. Under the street runs a sewer with ladder hatches, and one cellar has a secret way into it. The city sits inside a mountain, so the ground is bare rock and paving, and the light comes from glowing crystals and fires. Each house stands turned a degree or so off the grid, its yard with it, each its own way, and narrow alleys run between them.
 
 ![The Kragmir street with the roofs off](docs/images/kragmir-street.jpg)
+
+## A station on a cliff
+
+The deep mines station of Kragmir stands on a rock shelf 35 feet above the town's lower street, and both are in one scene. A grand stair and a freight lift go down the cliff. The train stops on a raised platform on stone piers, the road to the fort runs under it, and a hoist tower lifts ore carts 25 feet up to the track. Six buildings line the curbed streets: the office, two warehouses, the workers' shed, the hoist tower and the wardens' post where passes are checked. The yards are full of goods, carts, machines and rock fallen from the cave wall.
+
+![The Kragmir mines station from above, roofs on](docs/images/kragmir-mines-station.jpg)
 
 ## Credits
 
