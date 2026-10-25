@@ -2,6 +2,22 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.5.0 — ambient sound
+
+Sound on five maps
+
+- Izudin's manor, the lake tower and the ruined tower: birds and wind by day, crickets and an owl at night, over the open ground. The **День** and **Ночь** macros switch between them.
+- The lake tower: waves lap along the shore and at the jetty, and water drips in the basement.
+- The Kragmir street and the mines station: cave air on every level, and drips by the station's puddles.
+- Outdoor sounds carry through walls and floors: indoors and upstairs they come softer and muffled. An open-air room upstairs, such as the lake tower's balcony, hears them clearly.
+
+Module
+
+- A new macro, **Звуки**: the GM's panel for the open scene's sounds. Each sound plays by the time of day, always, or not at all, and every player hears a change at once.
+- The sounds are CC0 recordings from Freesound, cut into seamless loops of about 0.4 MB each.
+
+The other maps haven't changed. To get the sounds, delete the five maps from your world and import them again.
+
 ## 1.4.0 — Kragmir deep mines station
 
 New map

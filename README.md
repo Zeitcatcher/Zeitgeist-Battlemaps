@@ -51,7 +51,8 @@ The plain versions are lit with real shadows. The (2D) versions are the same map
 - Rocks, stacks of crates, carts and machines have object walls on their outline: they stop movement and hide what stands behind them. Rubble and rock heaps are difficult terrain.
 - Cellars and shut rooms carry darkness regions, and night lights switch on as the scene darkens.
 - Moving parts: drawbridges, lifts, portcullises and pressure plates, with a button on the map for the player whose token stands at the lever or on the lift. The mines station has two lifts: a freight lift down the cliff and a hoist that raises ore carts to the platform.
-- Three macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, both fading over ten seconds. **Механизмы** lists the moving parts of the open scene for the GM to operate, reset or jam.
+- Ambient sound on five maps: birds and wind by day, crickets and an owl at night, waves on the lake shore, dripping water and cave air. Sounds carry through walls and floors the way Foundry plays them, softer and muffled indoors and upstairs.
+- Four macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, both fading over ten seconds. **Механизмы** lists the moving parts of the open scene for the GM to operate, reset or jam. **Звуки** lists the scene's sounds, and the GM sets each one to play by the time of day, always, or not at all.
 
 ## Installation
 
@@ -69,6 +70,7 @@ Then enable the module in your world. The zip is about 90 MB because of the map 
 2. Drag a scene into your world, or right-click it and choose **Import**.
 3. Activate the scene. On multi-floor maps, switch floors with Foundry's Levels controls.
 4. For a night scene, run the **Ночь** macro as the GM. **День** brings the daylight back.
+5. Sounds play for tokens: each player hears from their own, and the GM hears through a selected token. Run **Звуки** to switch a map's sounds, and set the ambient volume in the Playlists tab.
 
 ![The lake tower, ground floor](docs/images/lake-tower-ground.jpg)
 
@@ -111,6 +113,8 @@ Maps by Zeitcatcher.
 Only rendered map images ship in this module. The original asset files are not included and can't be taken out of the maps.
 
 **Textures and models: Poly Haven.** The lit versions use CC0 materials and models from [Poly Haven](https://polyhaven.com).
+
+**Sounds: Freesound.** The ambient loops are cut from CC0 recordings on [Freesound](https://freesound.org): [birds in a forest](https://freesound.org/people/BurghRecords/sounds/490846/) by BurghRecords, [crickets and a tawny owl](https://freesound.org/people/raoul_slayer/sounds/203598/) by raoul_slayer, [small waves](https://freesound.org/people/robotjay/sounds/518467/) by robotjay, [drops in a cave](https://freesound.org/people/Selector/sounds/402929/) by Selector and [cave ambience](https://freesound.org/people/pointlessperson1/sounds/740041/) by pointlessperson1.
 
 The maps are built with Blender and a custom generator.
 
