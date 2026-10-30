@@ -2,6 +2,22 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.6.0 — Kragmir deep mines fort
+
+New map
+
+- **Глубинные шахты: форт** (Kragmir deep mines, the fort), 80 × 109 squares, nine levels, lit look. An outer wall with a gatehouse, an inner wall with a twin-towered gate and a portcullis, wall walks between the towers, a keep, barracks, workshops and cellars. A token that steps off a wall or a ledge falls to the level below.
+- Ambient sound: cave air, dripping water, fires, the forge and the anvil. The crowds stay off until the GM turns them on.
+
+Module
+
+- Two new macros: **Рассвет** and **Закат** set early morning and evening with a warm tint, which **День** and **Ночь** clear.
+- A pressure plate can carry a trap: the GM gets a whispered card with its rolls, and the players hear it go off. The card's rolls are written for PF2e; other systems show them as raw text. Plates tell the GM when they refuse a token.
+- A token standing on the top step of a turned stair no longer falls off the ledge beside it.
+- The **Звуки** panel can keep a sound off until the GM turns it on.
+
+The other maps haven't changed. Import the new fort scene from the compendium.
+
 ## 1.5.0 — ambient sound
 
 Sound on five maps
@@ -74,7 +90,7 @@ One new scene, eight in all.
 
 Maps
 
-- Kragmir, a working-quarter street: 81 × 50 squares, twelve furnished two-storey houses, a market square, back lanes and yards, and a sewer under the street with ladder hatches and a secret cellar entrance.
+- Kragmir, a working-quarter street: 81 × 50 squares, twelve furnished two-storey houses, a market square, back lanes and yards, and a sewer under the street with ladder hatches and a hidden cellar entrance.
 
 Play
 
