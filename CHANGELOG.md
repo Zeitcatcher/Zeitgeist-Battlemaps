@@ -2,6 +2,22 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.7.0 — Kragmir mine office
+
+New map
+
+- **Глубинные шахты: контора** (Kragmir deep mines, the mine office), 80 × 54 squares, five levels, lit look. An office quarter you can walk into: the office around its courtyard, the assay house, the weigh house, the winding house, a guard post and the overseers' homes.
+- A working rope incline 35 feet down the cliff: a button at either end calls the cart, and tokens ride in it.
+- Smoke from six chimneys, which fades with each house's roof.
+- Ambient sound: the winding gear and the assay furnace. A crowd stays off until the GM turns it on.
+
+Module
+
+- A new moving part, the rope incline, listed in **Механизмы** like the others.
+- Smoke can fade house by house. A map has to ask for this; no other map does.
+
+The other maps haven't changed. Import the new scene from the compendium.
+
 ## 1.6.0 — Kragmir deep mines fort
 
 New map
