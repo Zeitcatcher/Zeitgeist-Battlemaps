@@ -2,6 +2,17 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.8.0 — Kragmir port warehouse
+
+New map
+
+- **Заброшенный склад в порту** (Kragmir, an abandoned warehouse in the port), 52 × 60 squares, three levels, lit look. One long hall of crates and barrels with a double door at each end and a broken overhead crane, on the second line from the water behind a row of stores, the quay and the pier.
+- Beams 15 feet up are a level of their own, reached by two ladders or over the crates. A token that steps off a beam falls to the floor.
+- The harbour water moves, flowing west.
+- No ambient sound on this map.
+
+The other maps haven't changed. Import the new scene from the compendium.
+
 ## 1.7.0 — Kragmir mine office
 
 New map

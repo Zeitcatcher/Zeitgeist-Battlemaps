@@ -23,7 +23,7 @@ Foundry VTT v14, verified on 14.369. The multi-floor scenes need v14's Levels, s
 
 ## What's inside
 
-Eleven scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
+Twelve scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
 
 | Scene | English name | Size | Floors |
 | --- | --- | --- | --- |
@@ -38,6 +38,7 @@ Eleven scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Rus
 | Глубинные шахты: станция | Kragmir deep mines, the station | 80 × 54 squares | lower street, station, upper floors, raised platform, roofs |
 | Глубинные шахты: форт | Kragmir deep mines, the fort | 80 × 109 squares | nine levels: below ground, fort, upper floors, wall walk, tower tops, keep top, roofs |
 | Глубинные шахты: контора | Kragmir deep mines, the mine office | 80 × 54 squares | five levels: cellars, the tier below the cliff, the office quarter, upper floors, roofs |
+| Заброшенный склад в порту | Kragmir, an abandoned warehouse in the port | 52 × 60 squares | warehouse floor, beams, roofs |
 
 The plain versions are lit with real shadows. The (2D) versions are the same map with a flat painted look and no baked shadows.
 
@@ -54,6 +55,7 @@ The plain versions are lit with real shadows. The (2D) versions are the same map
 - Cellars and shut rooms carry darkness regions, and night lights switch on as the scene darkens.
 - Moving parts: drawbridges, lifts, portcullises, pressure plates and a rope incline, with a button on the map for the player whose token stands at the lever or on the lift. The mines station has two lifts: a freight lift down the cliff and a hoist that raises ore carts to the platform.
 - Chimney smoke that drifts with the wind on the mine office map, and fades with a house's roof when a token goes inside.
+- Moving water in the port warehouse harbour: the whole surface flows west, while the quay and the pier stay still.
 - Ambient sound on seven maps: birds and wind by day, crickets and an owl at night, waves on the lake shore, dripping water, cave air, fires, a working forge and winding gear. Sounds carry through walls and floors the way Foundry plays them, softer and muffled indoors and upstairs.
 - Six macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, **Рассвет** and **Закат** to early morning and evening with a warm tint, all fading over ten seconds. **Механизмы** lists the moving parts of the open scene for the GM to operate, reset or jam. **Звуки** lists the scene's sounds, and the GM sets each one to play by the time of day, always, or not at all.
 
@@ -118,6 +120,12 @@ The Kragmir fort holds the road beyond the mines station, 80 by 109 squares and 
 The mine office quarter stands above a lower tier of the Kragmir mines, 80 by 54 squares and five levels in one scene. You can walk into every building: the office around its courtyard, with a public counter and a pay office, the assay house, the weigh house, the winding house, a guard post with two cells and the overseers' homes. A rope incline runs 35 feet down the cliff. A button at either end calls the cart, tokens ride in it, the rope pays out and the wheels turn. Smoke drifts from six chimneys and fades with each house's roof. You hear the winding gear and the assay furnace, which burns low at night; a crowd stays off until the GM turns it on.
 
 ![The Kragmir mine office quarter from above, roofs on](docs/images/kragmir-mine-office.jpg)
+
+## A warehouse by the harbour
+
+An abandoned warehouse in the Kragmir port quarter, 52 by 60 squares and three levels in one scene. It stands on the second line from the water: a row of stores sits between it and the quay, then the pier and the harbour. Inside is one long hall with a double door at each end, rows of banded crates and empty barrels, a few of them smashed, and an overhead crane whose bridge has jammed askew. Beams 15 feet up make a level of their own. You climb up by two ladders at the south wall or over the crates, and a token that steps off a beam falls to the floor. The hall has no lights. Outside, a wide road runs down to the pier, a cart rail follows the river, and the harbour water moves. Every store has a locked double door.
+
+![The Kragmir port warehouse from above, roofs on](docs/images/kragmir-port-warehouse.jpg)
 
 ## Credits
 
