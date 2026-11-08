@@ -2,6 +2,15 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.8.1 — port warehouse fixes
+
+Fixed
+
+- **Заброшенный склад в порту**: the walls of the stores round the warehouse crossed at the corners. Each corner is now one wall turning.
+- **Заброшенный склад в порту**: on every double door (the hall's two and the five stores'), the second leaf was drawn the wrong way round, its handle on the other face. Both leaves now mirror each other and the handles meet in the middle. Import the scene again from the compendium to get the fixed doors.
+
+The other maps haven't changed.
+
 ## 1.8.0 — Kragmir port warehouse
 
 New map
