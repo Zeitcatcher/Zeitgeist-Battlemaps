@@ -2,6 +2,15 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.8.2 — wall corners on the Kragmir street and the mines station
+
+Fixed
+
+- **Крагмир: улица рабочего квартала**: the houses here stand turned a little off the grid, and wherever their walls met, an unturned post was drawn, so each corner showed a small cross. On all three levels the corners are now one wall turning, and at a T or a crossing the wall runs through. Two cellar corners by the tunnel from the pawnshop are fixed as well, and the sewer's corners are drawn the same way.
+- **Глубинные шахты: станция**: on the deck, the open east end of the wardens' post's south wall had the same small cross. It is now a plain wall end.
+
+Only the map images changed. Walls, doors and lights are as before, so there is nothing to import again. The other maps haven't changed.
+
 ## 1.8.1 — port warehouse fixes
 
 Fixed
