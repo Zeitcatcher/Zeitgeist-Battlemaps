@@ -2,6 +2,14 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.8.3 — a wall seam in the Kragmir fort's cellar
+
+Fixed
+
+- **Глубинные шахты: форт**: in the cellar, where the cistern passage meets the turned house beside it, the passage's walls ran a little past the house's door posts and over its wall, so both corners showed a seam with an outlined end. Each is now one clean corner.
+
+Only the cellar image changed. Walls, doors and lights are as before, so there is nothing to import again. The other maps haven't changed.
+
 ## 1.8.2 — wall corners on the Kragmir street and the mines station
 
 Fixed
