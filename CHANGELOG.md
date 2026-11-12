@@ -2,6 +2,15 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.8.4 — rock walls and wall corners in the Kragmir deep mines
+
+Fixed
+
+- **Глубинные шахты: станция**, **Глубинные шахты: форт** and **Глубинные шахты: контора**: walls along the rock used to sit on its drawn edge, so a token stopped short of the stone or stood on it. They now run a little inside the rock, and the rock's edge is drawn ragged instead of ruler-straight. Boulders and stalagmites in the stone have walls of their own.
+- The same three maps: where a wall meets a door or window, the corner is now drawn clean, without a step or a cross.
+
+Walls changed on these three maps, so delete their scenes and import them again from the compendium. The other maps haven't changed.
+
 ## 1.8.3 — a wall seam in the Kragmir fort's cellar
 
 Fixed
