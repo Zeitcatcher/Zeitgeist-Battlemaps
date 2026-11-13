@@ -2,6 +2,14 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.8.5 — cliff-top walls in the Kragmir deep mines
+
+Fixed
+
+- **Глубинные шахты: станция**, **Глубинные шахты: форт** and **Глубинные шахты: контора**: the walls that block sight at the top of each cliff ran along the grid squares, not the drawn edge. Seen from below, part of the cliff face was hidden in some places, and a strip of the ground on top showed in others. They now follow the drawn edge, just behind it.
+
+Walls changed on these three maps, so delete their scenes and import them again from the compendium. The other maps haven't changed.
+
 ## 1.8.4 — rock walls and wall corners in the Kragmir deep mines
 
 Fixed
