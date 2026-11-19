@@ -2,6 +2,17 @@
 
 Notable changes, newest first. Every version is also on the [Releases page](https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases); to update inside Foundry, press Update on the module.
 
+## 1.9.0 — Kragmir craft street
+
+New map
+
+- **Глубинные шахты: ремесленная улица** (Kragmir deep mines, the craft street), 80 × 54 squares, four levels, lit look. Ten workshops you can walk into: two smithies, a lamp maker, a potter, the mine's construct workshop, a carpenter's yard, a rope walk and a wheelwright, plus two workshops standing shut with barred shutters.
+- A cart ramp 35 feet down the cliff face to the tier below, where a road leaves the map to the east.
+- Smoke from eight chimneys and a fire in the wheelwright's yard. Each house's smoke fades with its roof when a token goes inside.
+- Ambient sound: forges and anvils by day, fires, cave air and dripping water. A street crowd stays off until the GM turns it on.
+
+The other maps haven't changed. Import the new scene from the compendium.
+
 ## 1.8.5 — cliff-top walls in the Kragmir deep mines
 
 Fixed

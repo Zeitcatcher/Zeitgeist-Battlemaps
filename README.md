@@ -23,7 +23,7 @@ Foundry VTT v14, verified on 14.369. The multi-floor scenes need v14's Levels, s
 
 ## What's inside
 
-Twelve scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
+Thirteen scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Russian, the language of the campaign they were made for.
 
 | Scene | English name | Size | Floors |
 | --- | --- | --- | --- |
@@ -38,6 +38,7 @@ Twelve scenes in the **Zeitgeist Battlemaps** compendium. Scene names are in Rus
 | Глубинные шахты: станция | Kragmir deep mines, the station | 80 × 54 squares | lower street, station, upper floors, raised platform, roofs |
 | Глубинные шахты: форт | Kragmir deep mines, the fort | 80 × 109 squares | nine levels: below ground, fort, upper floors, wall walk, tower tops, keep top, roofs |
 | Глубинные шахты: контора | Kragmir deep mines, the mine office | 80 × 54 squares | five levels: cellars, the tier below the cliff, the office quarter, upper floors, roofs |
+| Глубинные шахты: ремесленная улица | Kragmir deep mines, the craft street | 80 × 54 squares | four levels: the tier below the cliff, the street, upper floors, roofs |
 | Заброшенный склад в порту | Kragmir, an abandoned warehouse in the port | 52 × 60 squares | warehouse floor, beams, roofs |
 
 The plain versions are lit with real shadows. The (2D) versions are the same map with a flat painted look and no baked shadows.
@@ -54,9 +55,9 @@ The plain versions are lit with real shadows. The (2D) versions are the same map
 - Rocks, stacks of crates, carts and machines have object walls on their outline: they stop movement and hide what stands behind them. Rubble and rock heaps are difficult terrain.
 - Cellars and shut rooms carry darkness regions, and night lights switch on as the scene darkens.
 - Moving parts: drawbridges, lifts, portcullises, pressure plates and a rope incline, with a button on the map for the player whose token stands at the lever or on the lift. The mines station has two lifts: a freight lift down the cliff and a hoist that raises ore carts to the platform.
-- Chimney smoke that drifts with the wind on the mine office map, and fades with a house's roof when a token goes inside.
+- Chimney smoke that drifts with the wind on the mine office and craft street maps, and fades with a house's roof when a token goes inside.
 - Moving water in the port warehouse harbour: the whole surface flows west, while the quay and the pier stay still.
-- Ambient sound on seven maps: birds and wind by day, crickets and an owl at night, waves on the lake shore, dripping water, cave air, fires, a working forge and winding gear. Sounds carry through walls and floors the way Foundry plays them, softer and muffled indoors and upstairs.
+- Ambient sound on eight maps: birds and wind by day, crickets and an owl at night, waves on the lake shore, dripping water, cave air, fires, a working forge, an anvil and winding gear. Sounds carry through walls and floors the way Foundry plays them, softer and muffled indoors and upstairs.
 - Six macros in the **Zeitgeist Battlemaps: Macros** compendium: **День** sets the open scene to full daylight, **Ночь** to its night value, **Рассвет** and **Закат** to early morning and evening with a warm tint, all fading over ten seconds. **Механизмы** lists the moving parts of the open scene for the GM to operate, reset or jam. **Звуки** lists the scene's sounds, and the GM sets each one to play by the time of day, always, or not at all.
 
 ## Installation
@@ -67,7 +68,7 @@ In Foundry, open **Add-on Modules**, press **Install Module** and paste this int
 https://github.com/Zeitcatcher/Zeitgeist-Battlemaps/releases/latest/download/module.json
 ```
 
-Then enable the module in your world. The zip is about 145 MB because of the map images.
+Then enable the module in your world. The zip is about 175 MB because of the map images.
 
 ## How to use it
 
@@ -121,6 +122,12 @@ The mine office quarter stands above a lower tier of the Kragmir mines, 80 by 54
 
 ![The Kragmir mine office quarter from above, roofs on](docs/images/kragmir-mine-office.jpg)
 
+## A craft street
+
+The craft street of the Kragmir deep mines, 80 by 54 squares and four levels in one scene. Ten lots line the street and its lanes: two smithies across a yard by the cave wall, a lamp maker, a potter, the mine's construct workshop with repairs piled up, a carpenter's yard for pit props, a rope walk, a wheelwright, and two workshops that stand shut with their shutters barred. Most of them sell over a front counter, and the families live upstairs. A cart ramp 30 squares long runs 35 feet down the cliff face to a road on the tier below, which leaves the map to the east. Smoke rises from the forges, the kiln and the lamp maker's stove, and from a fire in the wheelwright's yard; none rises from the shut workshops. You hear the forges and anvils by day, fires and cave air; a street crowd stays off until the GM turns it on.
+
+![The Kragmir craft street from above, roofs on](docs/images/kragmir-craft-street.jpg)
+
 ## A warehouse by the harbour
 
 An abandoned warehouse in the Kragmir port quarter, 52 by 60 squares and three levels in one scene. It stands on the second line from the water: a row of stores sits between it and the quay, then the pier and the harbour. Inside is one long hall with a double door at each end, rows of banded crates and empty barrels, a few of them smashed, and an overhead crane whose bridge has jammed askew. Beams 15 feet up make a level of their own. You climb up by two ladders at the south wall or over the crates, and a token that steps off a beam falls to the floor. The hall has no lights. Outside, a wide road runs down to the pier, a cart rail follows the river, and the harbour water moves. Every store has a locked double door.
@@ -137,7 +144,7 @@ Only rendered map images ship in this module. The original asset files are not i
 
 **Textures and models: Poly Haven.** The lit versions use CC0 materials and models from [Poly Haven](https://polyhaven.com).
 
-**Sounds: Freesound.** The ambient loops are cut from CC0 recordings on [Freesound](https://freesound.org): [birds in a forest](https://freesound.org/people/BurghRecords/sounds/490846/) by BurghRecords, [crickets and a tawny owl](https://freesound.org/people/raoul_slayer/sounds/203598/) by raoul_slayer, [small waves](https://freesound.org/people/robotjay/sounds/518467/) by robotjay, [drops in a cave](https://freesound.org/people/Selector/sounds/402929/) by Selector, [cave ambience](https://freesound.org/people/pointlessperson1/sounds/740041/) by pointlessperson1, [a hearth fire](https://freesound.org/people/nielstii/sounds/346321/) by nielstii, [a campfire](https://freesound.org/people/Spandau/sounds/40699/) by Spandau, [hand bellows](https://freesound.org/people/Artiom_Constantinov/sounds/856539/) by Artiom_Constantinov and [a tavern crowd](https://freesound.org/people/denkmal/sounds/539811/) by denkmal. The winding gear is cut from [wooden mill gears](https://freesound.org/people/tombinambur/sounds/347628/) by tombinambur. The anvil comes from a [blacksmith recording](https://freesound.org/people/bruno.auzet/sounds/640197/) by bruno.auzet. The trap sound is cut from the same blacksmith recording and a [hot spring](https://freesound.org/people/Nox_Sound/sounds/829623/) by Nox_Sound.
+**Sounds: Freesound.** The ambient loops are cut from CC0 recordings on [Freesound](https://freesound.org): [birds in a forest](https://freesound.org/people/BurghRecords/sounds/490846/) by BurghRecords, [crickets and a tawny owl](https://freesound.org/people/raoul_slayer/sounds/203598/) by raoul_slayer, [small waves](https://freesound.org/people/robotjay/sounds/518467/) by robotjay, [drops in a cave](https://freesound.org/people/Selector/sounds/402929/) by Selector, [cave ambience](https://freesound.org/people/pointlessperson1/sounds/740041/) by pointlessperson1, [a hearth fire](https://freesound.org/people/nielstii/sounds/346321/) by nielstii, [a campfire](https://freesound.org/people/Spandau/sounds/40699/) by Spandau, [hand bellows](https://freesound.org/people/Artiom_Constantinov/sounds/856539/) by Artiom_Constantinov, [a tavern crowd](https://freesound.org/people/denkmal/sounds/539811/) by denkmal and [a street crowd](https://freesound.org/people/susipekka/sounds/244107/) by susipekka. The winding gear is cut from [wooden mill gears](https://freesound.org/people/tombinambur/sounds/347628/) by tombinambur. The anvil comes from a [blacksmith recording](https://freesound.org/people/bruno.auzet/sounds/640197/) by bruno.auzet. The trap sound is cut from the same blacksmith recording and a [hot spring](https://freesound.org/people/Nox_Sound/sounds/829623/) by Nox_Sound.
 
 The maps are built with Blender and a custom generator.
 
